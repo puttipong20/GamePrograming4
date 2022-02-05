@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D3CC1ABB-1E96-7450-6E86-A58A7B9A9F95}</ProjectGuid>
+    <ProjectGuid>{ECB8CF2E-47CD-5173-C5C6-747C6712A491}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,9 +53,9 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\player.cs" />
     <Compile Include="Assets\script\camera.cs" />
-    <Compile Include="Assets\script\Coin.cs" />
+    <Compile Include="Assets\script\Cude.cs" />
+    <Compile Include="Assets\script\player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

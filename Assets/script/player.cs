@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private Rigidbody rb;
     private int score;
@@ -18,7 +18,6 @@ public class player : MonoBehaviour
         winText.text = "";
     }
 
-    // Update is called once per frame
     void Update()
     {
         float move_H = Input.GetAxis("Horizontal");
@@ -39,9 +38,9 @@ public class player : MonoBehaviour
     void setScoreText()
     {
         scoreText.text = "Score : " + score.ToString();
-        if (score == 4)
+        if (score == 6)
         {
-            winText.text = "congrate ! ! !";
+            winText.text = "You Win ! ! !";
         }
     }
 }
